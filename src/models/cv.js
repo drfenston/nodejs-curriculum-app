@@ -10,7 +10,6 @@ module.exports = (sequelize, DataTypes) => {
       poste: {
         type: DataTypes.STRING,
         allowNull: false,
-        defaultValue:"...",
         validate: {
             len: {
                 args: [1, 50],
@@ -22,12 +21,8 @@ module.exports = (sequelize, DataTypes) => {
       },
       debut: {
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull: true,
         defaultValue:Sequelize.now,
-        validate: {
-            notEmpty: {msg: "Le poste ne peut pas être vide."},
-            notNull: {msg: "Vous devez entrer obligatoirement un nom de poste."}
-        }
       },
       profileImage: {
         type: DataTypes.STRING,

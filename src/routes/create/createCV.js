@@ -6,7 +6,11 @@ const prefix = helper.prefix
 
 module.exports = (app) => {
   app.post(prefix + '/api/cv', auth, (req, res) => {
-    CV.create(req.body)
+
+    const poste = req.body.poste
+    const userId = req.body.userId
+    
+    CV.create({ poste: poste, userId: userId }) 
       .then(cv => {
         const message = `Le cv ${req.body.poste} a bien été créé.`
         res.json({ message, data: cv })
