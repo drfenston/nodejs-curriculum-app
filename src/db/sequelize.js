@@ -9,8 +9,6 @@ const ExperienceModel = require('../models/experience')
 const ProjetModel = require('../models/projet')
 const CVModel = require('../models/cv')
 const mockCV = require('./mock-cv')
-const competenceTechnique = require('../models/competenceTechnique')
-const langue = require('../models/langue')
 
 let sequelize
 

@@ -46,6 +46,7 @@ require('./src/routes/delete/deleteFormation')(app)
 require('./src/routes/delete/deleteLangue')(app)
 require('./src/routes/delete/deleteProjet')(app)
 require('./src/routes/login')(app)
+require('./src/routes/getLatestAPK')(app)
 
 // On gère les routes 404.
 app.use(({res}) => {
