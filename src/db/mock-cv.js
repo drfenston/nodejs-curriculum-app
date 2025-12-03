@@ -101,7 +101,7 @@ const mockCV = [{
            "telephone":"0600000000",
            "apropos":"...",
            "mail":"drfenston@gmail.com",
-           "website":"www.cyrilmaquaire.com",
+           "website":"www.maquairecyril.com",
            "reseaux":"...",
            "formations":[
               {
@@ -236,8 +236,8 @@ const mockCV = [{
            "zipCode":"31330",
            "telephone":"0687806139",
            "apropos":"...",
-           "mail":"contact@cyrilmaquaire.com",
-           "website":"www.cyrilmaquaire.com",
+           "mail":"contact@maquairecyril.com",
+           "website":"www.maquairecyril.com",
            "reseaux":"...",
            "formations":[
               {

@@ -63,7 +63,7 @@ const getLatestAPK = (directoryPath) => {
           }
         }
       });
-      const baseUrl = "https://www.cyrilmaquaire.com/curriculum/apk/";
+      const baseUrl = "https://maquairecyril.com/curriculum/apk/";
       // Renvoyer les informations du fichier le plus récent
       const filePath = `${baseUrl}${latestFile}`;
       resolve({
